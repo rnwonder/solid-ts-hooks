@@ -1,0 +1,50 @@
+{
+  "name": "solid-ts-hooks",
+  "version": "0.0.7",
+  "description": "",
+  "type": "module",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/lib/index.d.ts",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "hooks",
+    "solid-ts-hooks",
+    "solid-hooks",
+    "solidjs hooks",
+    "hooks-library"
+  ],
+  "author": "rnwonder",
+  "bugs": "https://github.com/rnwonder/solid-ts-hooks/issues",
+  "homepage": "https://github.com/rnwonder/solid-ts-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnwonder/solid-ts-hooks.git"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "build:lib": "rollup -c rollup.config.js",
+    "test": "vitest --ui"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false
+}
